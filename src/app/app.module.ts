@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 
 
 import { RootComponent} from './app.component';
+import { MyFirstTemplateComponent } from './my-first-template.component'; 
 
 @NgModule({
     imports:[
@@ -13,7 +14,7 @@ import { RootComponent} from './app.component';
         CommonModule
     ],
     exports:[],
-    declarations:[RootComponent],
+    declarations:[RootComponent, MyFirstTemplateComponent ],
     providers:[],
     bootstrap:[RootComponent]
 })
